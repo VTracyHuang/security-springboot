@@ -3,3 +3,8 @@ server:
   servlet:
     context-path: /security-springboot
     application-display-name: security-springboot
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
